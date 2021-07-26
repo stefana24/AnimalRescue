@@ -7,6 +7,8 @@ public class Animal {
     private String favoriteFood;
     private RecreationActivity favoriteActivity;
 
+    public Animal(){};
+
     public Animal(String name, int age, int health, int hunger, int mood, String favoriteFood, RecreationActivity favoriteActivity) {
         this.name = name;
         this.age = age;

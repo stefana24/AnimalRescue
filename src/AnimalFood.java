@@ -7,6 +7,8 @@ public class AnimalFood {
     private LocalDate expirationDate;
     private boolean isAvailable;
 
+    public AnimalFood(){}
+
     public AnimalFood(String name, double price, int quantity, LocalDate expirationDate, boolean isAvailable) {
         this.name = name;
         this.price = price;
@@ -53,5 +55,16 @@ public class AnimalFood {
 
     public void setAvailable(boolean available) {
         isAvailable = available;
+    }
+
+    @Override
+    public String toString() {
+        return "AnimalFood{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", quantity=" + quantity +
+                ", expirationDate=" + expirationDate +
+                ", isAvailable=" + isAvailable +
+                '}';
     }
 }
