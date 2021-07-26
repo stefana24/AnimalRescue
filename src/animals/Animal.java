@@ -14,6 +14,11 @@ public class Animal {
     private boolean adopted;
     private boolean isVaccinated;
 
+    protected double kg;
+
+    public double getKg() {
+        return kg;
+    }
 
     public boolean isVaccinated() {
         return isVaccinated;

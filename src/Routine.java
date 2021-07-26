@@ -19,6 +19,7 @@ public class Routine {
     }
 
     public Dog getDog() {
+        dog.removeKgs();
         return dog;
     }
 

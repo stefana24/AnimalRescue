@@ -8,8 +8,10 @@ public class Child extends Parent{
     }
 
     public void feedDog(Dog dog){
-        System.out.println("Feeding the dog");
+        //System.out.println("Feeding the dog");
         dog.setHunger(1);
+        dog.addKgs();
+
     }
 
     public void walkDog(){
