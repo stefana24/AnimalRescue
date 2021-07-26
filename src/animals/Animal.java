@@ -6,16 +6,10 @@ public abstract class Animal {
     private double kg;
     private String color;
 
-    public void animalEating(){
-        System.out.println("Eating...");
-    }
-    public void animalSleep(){
-        System.out.println("Animal is sleeping...");
-    }
+    public abstract void speak();
+    public abstract void cute();
 
-    public void makeSound(){
-        System.out.println("Each animal makes a specific sound");
-    }
+
 
     public String getName() {
         return name;
